@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#trainers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trainer {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: inline-block;
+    width: 300px;
+}
+
+.pokemon {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.pokemon img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pokemon.planta {
+    background-color: #78C850;
+}
+
+.pokemon.fuego {
+    background-color: #F08030;
+}
+
+.pokemon.electrico {
+    background-color: #F8D030;
+}
+
+.pokemon.normal {
+    background-color: #A8A878;
+}
+
+/* Agrega más estilos para otros tipos de Pokémon si es necesario */
